@@ -1,0 +1,177 @@
+/*
+Theme Name: Twenty Twenty-One Child
+Theme URI: https://wordpress.org/themes/twentytwentyone/
+Template: twentytwentyone
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+Tags: one-column,accessibility-ready,custom-colors,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,block-patterns,rtl-language-support,sticky-post,threaded-comments,translation-ready,blog,portfolio
+Version: 2.2.1718776120
+Updated: 2024-06-19 05:48:40
+
+*/
+
+h1, h2, h3, h4, h5, h6, p, li, a{
+	font-family: "Archivo", sans-serif;
+	color: #000000;
+}
+#masthead {
+    padding: 20px 0 20px 0;
+}
+.banner-section{
+	width: 1530px;
+}
+.banner-section-left .marathone-item .container {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+.marathone-img{
+	border-radius: 10px;
+	width: 100%;
+}
+.banner-section-left .marathone-item{
+	text-align: center;
+}
+.banner-section-left .subtitle {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    border: 1px solid #1E1E1E;
+    padding: 2px 8px 2px 8px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.banner-section-left h3{
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 46px;
+}
+.date-time {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.date-time li:first-child{
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 13.06px;
+	letter-spacing: 0.02em;
+}
+.date-time li:first-child:after {
+    display: inline-block;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+    margin: 0px 10px 1px 10px;
+}
+.date-time li:last-child{
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 13.06px;
+	letter-spacing: 0.02em;
+}
+.banner-section-right .marathone-item .container {
+    display: flex;
+    gap: 19px;
+}
+.banner-section-right .marathone-item {
+    padding-bottom: 60px;
+    margin: 0px !important;
+}
+.banner-section-right .subtitle {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 16.32px;
+	letter-spacing: 0.02em;
+	margin-bottom: 15px;
+	padding: 0px !important;
+}
+.banner-section-right .marathone-item h3{
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 30px;
+	padding: 0px !important;
+}
+.banner-section-right .marathone-item .row-cl {
+    width: 100%;
+    max-width: 265px;
+}
+.banner-section-right .marathone-item .row-cln {
+    width: 100%;
+}
+.banner-section-right .marathone-item .date-time {
+    justify-content: left;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.banner-section {
+    padding: 0 15px 0 15px;
+}
+
+}	
+
+@media only screen and (max-width: 767px) {
+
+.banner-section-left .marathone-item .container {
+    padding: 10px;
+}
+.banner-section-left .subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 1px 8px 1px 8px !important;
+}
+.banner-section-left h3 {
+    font-size: 20px;
+    line-height: 22px;
+/*     margin: 0 30px 0px 30px; */
+}
+.banner-section {
+    width: auto;
+}
+.banner-section-left .date-time {
+    margin-bottom: 15px;
+}
+.banner-section-right .marathone-item .row-cl {
+    max-width: 110px;
+}
+.banner-section-right .subtitle {
+    font-size: 12px;
+    line-height: 13.06px;
+    margin-bottom: 10px;
+}
+.banner-section-right .marathone-item h3 {
+    font-size: 16px;
+    line-height: 22px;
+}
+.banner-section-right .marathone-item .container {
+    gap: 10px;
+}
+.banner-section-right .marathone-item {
+    padding-bottom: 35px;
+}
+.date-time li:first-child:after {
+    margin: 0px 5px 1px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}	
